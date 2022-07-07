@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: rgb(99, 99, 217);
+    padding: 5px;
 }
 .first-header__title {
     font-size: 1rem;
@@ -24,4 +25,18 @@ body {
     margin: 0 5px 0 0;
     list-style: none;
     font-size: 0.7rem;
+}
+.add-items-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: orange;
+}
+.add-items-section__info {
+    font-size: 0.7rem;
+    padding: 1px;
+}
+.add-items-section__add {
+    padding: 1px;
 }
