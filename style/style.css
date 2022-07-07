@@ -1,3 +1,8 @@
+:root {
+    --header-button-color: #5e81d1;
+    --add-item-color: #f87500;
+    --main-color: #ff8d27;
+}
 * {
     box-sizing: border-box;
 }
@@ -18,7 +23,7 @@ li {
 .first-header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(99, 99, 217);
+    background-color: var(--header-button-color);
     padding: 5px;
 }
 .first-header__title {
@@ -42,7 +47,7 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    background-color: rgb(246, 107, 48);
+    background-color: var(--add-item-color);
 }
 .add-items-section__info {
     font-size: 0.9rem;
@@ -52,7 +57,7 @@ li {
     padding: 1px;
 }
 .main-content {
-    background-color: rgb(216, 110, 34);
+    background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
