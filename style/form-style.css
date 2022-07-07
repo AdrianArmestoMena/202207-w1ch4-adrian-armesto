@@ -56,41 +56,34 @@ li {
 .add-items-section__add {
     padding: 1px;
 }
-.main-content {
+.main-form {
     background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-left: 10px;
 }
-.items-list {
-    margin: 5px 5px;
+.main-form__title {
+    font-size: 1rem;
+    margin: 10px 0;
     padding: 0;
 }
-.items-list__item {
-    margin: 5px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.checkbox-list__label {
-    font-size: 0.9rem;
-}
-.checkbox-list__label--labeled {
-    text-decoration: line-through;
-}
-.delete-price__price {
-    font-size: 0.9rem;
-}
-.total-price {
+.main-form__section {
     display: flex;
     flex-direction: column;
+    margin: 10px 0;
 }
-.total-price__line-separations {
-    height: 1px;
-    width: 90%;
-    align-self: center;
-    background-color: rgb(119, 100, 56);
+.main-form__input {
+    width: 35%;
+    height: 30px;
 }
-.total-price__number {
-    align-self: flex-end;
-    margin: 5px;
+.main-form__title {
+    margin-bottom: 5px;
+}
+.send-button > input {
+    font-size: 1rem;
+    padding: 7px 5px;
+    background-color: var(--header-button-color);
+    border: 0;
+    color: white;
 }
