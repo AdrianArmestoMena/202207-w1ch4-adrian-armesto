@@ -20,7 +20,11 @@
             <nav class="navegator">
                 <ul class="navegator-list">
                     <li class="navegator-list__element">Principal</li>
-                    <li class="navegator-list__element">Lista</li>
+                    <li
+                        class="navegator-list__element navegator-list__element--bold"
+                    >
+                        Lista
+                    </li>
                     <li class="navegator-list__element">Acerca de</li>
                 </ul>
             </nav>
@@ -31,5 +35,42 @@
             </div>
             <span class="add-items-section__info">2/3 Comprados</span>
         </section>
+        <main class="main-content">
+                <ul class="items-list">
+                    <li class="items-list__item">
+                        <div class="checkbox-list checkbox-list">
+                            <input class="checkbox-list__checkbox"type="checkbox" />
+                            <label class="checkbox-list__label checkbox-list__label--labeled" for="checkbox">Pan</label>
+                        </div>
+                        <div class="delete-price">
+                            <span class="delete-price__price">0,75€</span>
+                            <i  class="fa-solid fa-x delete-price__deletor"></i>
+                        </div>
+                    </li>
+                    <li class="items-list__item">
+                        <div class="checkbox-list">
+                            <input class="checkbox-list__checkbox" type="checkbox" />
+                            <label class="checkbox-list__label"for="checkbox">Azúcar</label>
+                        </div>
+                        <div class="delete-price">
+                            <i class="fa-solid fa-x delete-price__deletor"></i>
+                        </div>
+                    </li>
+                    <li class="items-list__item">
+                        <div class="checkbox-list">
+                            <input class="checkbox-list__checkbox" type="checkbox" />
+                            <label class="checkbox-list__label checkbox-list__label--labeled" for="checkbox">Leche</label>
+                        </div>
+                        <divclass="delete-price">
+                            <span class="delete-price__price">1,20€</span>
+                            <i class="fa-solid fa-x delete-price__deletor"></i>
+                        </div>
+                    </li>
+                </ul>
+                <section class="total-price">
+                    <div class="total-price__line-separations"></div>
+                    <span class="total-price__number">1,95€</span>
+                </section>
+        </main>
     </body>
 </html>
