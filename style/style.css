@@ -7,6 +7,11 @@ html {
 body {
     margin: 0;
 }
+li {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
 .first-header {
     display: flex;
     justify-content: space-between;
@@ -39,4 +44,11 @@ body {
 }
 .add-items-section__add {
     padding: 1px;
+}
+.items-list {
+    padding: 0;
+    margin: 5px 5px;
+}
+.items-list__item {
+    margin: 5px 0;
 }
