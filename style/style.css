@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(99, 99, 217);
+}
+.first-header__title {
+    font-size: 1rem;
+    margin: 10px 0 0 10px;
+}
+.navegator-list {
+    display: flex;
+    justify-content: center;
+}
+.navegator-list__element {
+    margin: 0 5px 0 0;
+    list-style: none;
+    font-size: 0.7rem;
+}
