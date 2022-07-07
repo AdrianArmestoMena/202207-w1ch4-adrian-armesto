@@ -10,17 +10,18 @@ body {
 .first-header {
     display: flex;
     justify-content: space-between;
-    line-height: none;
-    margin: 0 0 0 5px;
+    background-color: rgb(99, 99, 217);
 }
 .first-header__title {
-    font-size: 20px;
+    font-size: 1rem;
+    margin: 10px 0 0 10px;
 }
 .navegator-list {
     display: flex;
     justify-content: center;
 }
 .navegator-list__element {
-    margin: 0 5px;
+    margin: 0 5px 0 0;
     list-style: none;
+    font-size: 0.7rem;
 }
