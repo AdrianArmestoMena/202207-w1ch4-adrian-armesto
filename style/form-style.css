@@ -20,6 +20,9 @@ li {
     margin: 0;
     padding-left: 0;
 }
+a {
+    color: black;
+}
 .first-header {
     display: flex;
     justify-content: space-between;
