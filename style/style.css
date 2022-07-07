@@ -69,3 +69,17 @@ li {
 .delete-price__price {
     font-size: 0.9rem;
 }
+.total-price {
+    display: flex;
+    flex-direction: column;
+}
+.total-price__line-separations {
+    height: 1px;
+    width: 90%;
+    align-self: center;
+    background-color: rgb(119, 100, 56);
+}
+.total-price__number {
+    align-self: flex-end;
+    margin: 5px;
+}
