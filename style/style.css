@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    line-height: none;
+    margin: 0 0 0 5px;
+}
+.first-header__title {
+    font-size: 20px;
+}
+.navegator-list {
+    display: flex;
+    justify-content: center;
+}
+.navegator-list__element {
+    margin: 0 5px;
+    list-style: none;
+}
